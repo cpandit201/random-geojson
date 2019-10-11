@@ -7,9 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "HERE Global B.V. and its affiliate(s)",
+    "url": "https://here.com"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "ssh://hth@hth.in.here.com:HERE/projects/killbill_studio/repositories/git/studio"
+  },
   "dependencies": {
+    "@here/xyz-maps-common": "0.9.33",
+    "@here/xyz-maps-core": "0.9.33",
+    "@here/xyz-maps-display": "0.9.33",
+    "@here/xyz-maps-editor": "0.9.33",
+    "@here/xyz-maps-plugins": "0.9.33",
     "docker-names": "^1.1.1",
     "lorem-ipsum": "^2.0.3",
     "random-words": "^1.1.0"
