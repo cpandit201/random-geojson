@@ -48,7 +48,7 @@ stream.once('open', function(fileDescriptor) {
     console.log("latitude,longitude,altitude,geometry,name,details,summary")
     stream.write("latitude,longitude,altitude,geometry,name,details,summary"+"\n");
         
-    for (let i=0; i< 5; i++) {
+    for (let i=0; i< numberOfLines; i++) {
         let latitude = random({min:-90, max:90, requiredNmberOfDecimals: 8});
         let longitude = random({min:-180, max:180, requiredNmberOfDecimals: 8});
         let altitude = 0;
